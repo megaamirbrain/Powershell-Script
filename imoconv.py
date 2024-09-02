@@ -9,7 +9,7 @@ class Imogi_converter:
         var=""
         for w in word:
             var+=imo_dic.get(w,w)
-        print(var)
+        print(f'result: {var} ')
 
 
 
